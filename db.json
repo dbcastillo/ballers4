@@ -1,0 +1,64 @@
+{
+  "luxuries": [
+    {
+      "id": 1,
+      "brand": "Gucci",
+      "item": "shoes",
+      "price": 600
+    },
+    {
+      "id": 2,
+      "brand": "Prada",
+      "item": "flip-flops",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "brand": "Louis-Vutton",
+      "item": "bag",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "brand": "Ferrari",
+      "item": "sports-car",
+      "price": 300000
+    },
+    {
+      "id": 5,
+      "brand": "Bombardier",
+      "item": "private-jet",
+      "price": 50000000
+    },
+    {
+      "id": 6,
+      "brand": "Versace",
+      "item": "scarf",
+      "price": 500
+    },
+    {
+      "id": 7,
+      "brand": "Sycamore-Style",
+      "item": "Custom Onyx Wallabees",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "brand": "Nike",
+      "item": "Air Jordan Vs",
+      "price": 10000
+    },
+    {
+      "id": 9,
+      "brand": "Cartier",
+      "item": "watch",
+      "price": 4000
+    },
+    {
+      "id": 10,
+      "brand": "Burberry",
+      "item": "jacket",
+      "price": 2000
+    }
+  ]
+}
