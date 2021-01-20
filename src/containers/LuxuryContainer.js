@@ -6,13 +6,18 @@ class LuxuryContainer extends Component {
 
   showItems = () => {
     return this.props.items.map(item => {
-      return <LuxuryCard itemInfo={item} key={item.id}/>
+      return <LuxuryCard 
+      itemInfo={item} 
+      key={item.id} 
+      className="luxuryCard"
+      handleClick={this.props.handleClick}
+      />
     })
   }
 
   render(){
     return(
-      <div>
+      <div className="luxuryContainer">
         {this.showItems()}
       </div>
     )

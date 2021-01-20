@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LuxuryPage from "./containers/LuxuryPage"
+import "./App.css"
 
 class App extends Component{
   render(){

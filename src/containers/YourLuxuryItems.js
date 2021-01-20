@@ -1,10 +1,24 @@
 import React, { Component } from "react";
+import MyLuxuryItemsCard from "../components/MyLuxuryItemsCard"
 
 class YourLuxuryItems extends Component {
+  /* shopping cart divs need classname of cartCard*/
+
+  yourCart = () => {
+    return this.props.cart.map(cartObj => {
+      return <MyLuxuryItemsCard 
+      cartinfo={cartObj} 
+      key={cartObj.id} 
+      className="luxuryCard"
+      handleDelete={this.props.handleDelete}
+      />
+    })
+  }
+
   render(){
     return(
-      <div>
-        <h1>Your Shopping Cart</h1>
+      <div className="cartContainer">
+          {this.yourCart()}
       </div>
     )
   }

@@ -1,0 +1,29 @@
+.luxuryContainer, .cartContainer{
+  display: flex;
+  flex-direction: column;
+  border: dotted;
+  width: 300px;
+  margin-right: 100px;
+}
+
+.luxuryCard, .cartCard{
+  text-align: center;
+  border: double;
+  margin: 20px;
+}
+
+.luxuryDiv{
+  display: flex;
+}
+
+.luxuryContainerDiv{
+  margin-left: 50px;
+}
+
+.cart{
+  margin-left: 500px;
+}
+
+.containerHeader, .cartHeader{
+  color: blue;
+}
